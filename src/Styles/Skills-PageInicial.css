@@ -108,4 +108,26 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .Title-Skills {
+        height: 10%;
+        font-size: 80%;
+    }
+    .Sections-Main-Content .Content-Skills {
+        width: 80%;
+        height: 30%;
+    }
+    .Content-Skills .All-Skills {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .All-Skills > div {
+        width: 40%;
+    }
+}
+
     

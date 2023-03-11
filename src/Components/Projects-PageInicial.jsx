@@ -74,7 +74,9 @@ const ProjectsPageInicial = () => {
                                 </button>
                             </div>
                         </div> 
-                    </div>                 
+                    </div> 
+                    
+                                    
                 </div>
             </div>
         </div>

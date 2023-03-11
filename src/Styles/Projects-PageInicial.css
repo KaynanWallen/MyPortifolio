@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-y: auto;
+    /*overflow-y: auto;*/
 }
 
 .Projects .Project-row {
@@ -109,7 +109,7 @@
     justify-content: space-around;
 }
 .Button-Project button {
-    width: 40%;
+    width: 42%;
     border-radius: 1rem;
     border: none;
     background-color: rgba(0, 0, 255, 0.5);
@@ -126,13 +126,7 @@
     height: 60%;
     width: 20%;
 }
-.Button-Project button p {
-    color: rgba(255, 255, 255, 0.7);
-    margin: 0;
-    margin-left: 5%;
-    width: auto;
-    text-align: center;
-}
+
 
 @media screen and (max-width: 1650px) {
     .Description-Project h3 {
@@ -179,3 +173,56 @@
         font-size: 90%;
     }
 }
+@media screen and (max-width: 500px) {
+    .Title-Projects {
+        font-size: 60%;
+    }
+    .Projects-Container .Projects {
+        background-color: rgba(25, 1, 90, 0.5);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 50%;
+        overflow-x: scroll;
+        
+    }
+    .Projects .Project-row {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #ProjetosJS, #Portifolio {
+        height:50%;
+    }
+    .Description-Project {
+        margin-top: 2%;
+        height: 100%;
+    }
+    .Description-Project p {
+        text-align: center;
+        font-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Button-Project {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .Button-Project button {
+        height: 60%;
+    }
+    
+}
+/*.Projects-Container .Projects {
+    background-color: rgba(25, 1, 90, 0.5);
+    height: auto;
+    width: 75%;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}*/

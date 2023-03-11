@@ -301,3 +301,42 @@ footer img {
         display: none;
     }
 
+    @media screen and (max-width: 500px) {
+        .Sections-Main .Sections-Main-Footer {
+            height:10%;
+            overflow-x: auto;
+        }
+        
+        ::-webkit-scrollbar {
+            height: 10px;
+            border-radius: 1rem;
+        }
+    
+        ::-webkit-scrollbar-thumb {
+            background-color :#190033;
+            border-radius: 1rem;
+        }
+    
+        ::-webkit-scrollbar-track {
+            background-color: rgba(255, 255, 255, 0.1);
+            margin: 0.5rem;
+            border-radius: 1rem;
+        }
+        .Sections-Main .Sections-Main-Footer div{
+            width: 100%;
+            height: 95%;
+            margin-right: 5%;
+            margin-left: 3%;
+        }
+        .Sections-Main .Sections-Main-Footer div p{
+            font-size: 80%;
+            margin-left: 5%;
+        }
+        .Sections-Main .Sections-Main-Footer div img{
+            height: 50%;
+        }
+        .Sections-Main .Sections-Main-Footer div .close {
+            height: 20%;
+            margin-left: 10%;
+        }
+    }

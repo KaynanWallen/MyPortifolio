@@ -106,20 +106,20 @@
     border-radius: 2rem;
     background-color: rgba(255, 255, 255, 0.4);
 }
-.WindowsPage {
+.WindowsAndIOS .WindowsPage {
     display: none;
 }
-.MobilePage {
+.WindowsAndIOS .MobilePage {
     display: none;
 }
 @media screen and (max-width: 999px) {
-    .MobilePage {
+    .WindowsAndIOS .MobilePage {
         display: flex;
     }
 }
 
 @media screen and (min-width: 1000px) {
-    .WindowsPage {
+    .WindowsAndIOS .WindowsPage {
         display: flex;
     }
 }
