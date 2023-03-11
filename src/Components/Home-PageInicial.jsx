@@ -19,7 +19,7 @@ const HomePageInicial = () => {
     
         <div className="Name">
             <p>Hi, My name is</p>
-            <h1>Kaynan Wallen</h1>
+            <h1>testando</h1>
             <h3>And I'm a Front-End developer</h3>
 
             <div className="Links">
