@@ -1,0 +1,103 @@
+.Sections-Main .Sections-Main-Content{ 
+    display: flex;
+}
+.Sections-Main-Content .Title-About{
+    height: 20%;
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Title-About h2 {
+    font-size: 500%;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'DM Serif Display', serif;
+}
+.Sections-Main-Content .Content-About {
+    height: 40%;
+    display: flex;
+    align-items: center;
+}
+.Content-About p {
+    margin-left: 1%;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+.Content-About img {
+    margin-top: 2%;
+}
+.Sections-Main-Content .btn-cv {
+    width: 15%;
+    height: 7%;
+    border-radius: 2rem;
+    margin-left: 15%;
+    background-color: rgba(0, 0, 255, 0.2);
+    border: 0;
+    color: white;
+    font-size: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-cv:hover {
+    background-color: rgba(0, 0, 255, 0.4);
+}
+
+.btn-cv img {
+    height: 60%;
+    margin-right: 10%;
+
+}
+.btn-cv p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (max-width: 1700px) {
+    .Content-About p {
+        color: white;
+        font-size: 120%;
+        text-align: center;
+    }
+    .Content-About img {
+        height: 100%;
+    }
+    .About-Container .btn-cv{
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    #programer2 {
+        display: none;
+    }
+    .About-Container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .Sections-Main-Content .btn-cv {
+        margin-left: 0;
+    }
+
+}
+@media screen and (max-width: 1200px) {
+    .Sections-Main-Content .btn-cv p {
+        font-size: 50%;
+    }
+    .Sections-Main-Content .btn-cv img {
+        height: 50%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .Sections-Main-Content .btn-cv p {
+        font-size: 50%;
+    }
+    .Sections-Main-Content .btn-cv img {
+        display: none;
+    }
+}
+

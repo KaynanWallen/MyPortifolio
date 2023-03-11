@@ -1,0 +1,181 @@
+.Sections-Main-Content .Projects-Container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Projects-Container .Title-Projects {
+    width: 100%;
+    height: 20%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Title-Projects h2 {
+    font-size: 500%;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'DM Serif Display', serif;
+}
+.Projects-Container .Projects {
+    background-color: rgba(25, 1, 90, 0.5);
+    height: auto;
+    width: 75%;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.Projects .Project-row {
+    height: 40%;
+    width: 80%;
+    margin-top: 2.5%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Project-row > div {
+    height: 100%;
+    width: 100%;
+    color: white;
+    border-radius: 1rem;
+}
+.Project-row .ImageProject-and-technologies {
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+    border-radius: 1rem;
+}
+#ProjetosJS {
+    background-image: url(../assets/img/Projects-JsProjeto.png);
+    background-position: center;
+    background-size: 100% 100%;
+}
+#Portifolio {
+    background-image: url(../assets/img/Projects-Portifolio.png);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.ImageProject-and-technologies .technologies {
+    width: 100%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30%;
+    border-radius: 1rem;
+}
+.technologies h3 {
+    height: 30%;
+    width: 100%;
+    text-align: center;
+}
+.technologies .Desc-technologies {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Project-row .Description-Project {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3%;
+}
+.Description-Project h3 {
+    text-align: center;
+    width: 100%;
+    font-size: 200%;
+}
+.Description-Project p {
+    margin-top: 5%;
+    text-align: justify;
+    width: 100%;
+    font-size: 120%;
+    margin-bottom: 5%;
+}
+.Description-Project .Button-Project {
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.Button-Project button {
+    width: 40%;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.5);
+    color: white;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Button-Project button img {
+    margin: 0;
+    height: 60%;
+    width: 20%;
+}
+.Button-Project button p {
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+    margin-left: 5%;
+    width: auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 1650px) {
+    .Description-Project h3 {
+        font-size: 120%;
+    }
+    .Description-Project p {
+        margin-top: 2%;
+        font-size: 120%;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .Description-Project h3 {
+        font-size: 110%;
+    }
+    .Description-Project p {
+        margin-top: 2%;
+        font-size: 100%;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .Project-row {
+        margin-bottom: 5%;
+    }
+    .Projects-Container .Projects {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 790px) {
+    .Project-row {
+        margin-bottom: 5%;
+    }
+    .Projects-Container .Projects {
+        width: 95%;
+    }
+    .Project-row .ImageProject-and-technologies {
+        height: 80%;
+    } 
+    .Project-row .Description-Project {
+        height: 50%;
+        font-size: 90%;
+    }
+}
