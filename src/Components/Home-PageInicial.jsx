@@ -18,7 +18,7 @@ const HomePageInicial = () => {
             </style>
     
         <div className="Name">
-            <p>Hi, My name is</p>
+            <p>apenas testando</p>
             <h1>Kaynan Wallen</h1>
             <h3>And I'm a Front-End developer</h3>
 
