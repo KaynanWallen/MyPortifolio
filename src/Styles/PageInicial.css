@@ -49,8 +49,16 @@ main .Sections-Left{
     height: 100%;
     width: 4%;
     background-color: rgba (50, 9, 94, 0.83);
-}
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 
+}
+.Sections-Left img {
+    margin-top: 20%;
+    width: 50%;
+} 
 main .Sections-Center {
     height: 100%;
     width: 15%;
@@ -116,7 +124,7 @@ main .Sections-Main {
     width: 81%;
 }
 .Sections-Main .Sections-Main-Footer{
-    height: 5%;
+    height: 40px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 .Sections-Main-Footer {
@@ -188,7 +196,10 @@ footer img {
     main .Sections-Center {
         display: none;
     }
-    .Sections-Left {
+    main .Sections-Left {
+        display: none;
+    }
+    .Sections-Left img {
         display: none;
     }
     .Sections-Main-Footer {
@@ -227,6 +238,7 @@ footer img {
         display: flex;
         flex-direction: column;
         width: 50%;
+        height: 800px;
     }
     .Sections-Center.Mobile .points {
         display: none;
@@ -303,7 +315,7 @@ footer img {
 
     @media screen and (max-width: 500px) {
         .Sections-Main .Sections-Main-Footer {
-            height:10%;
+            height: 80px;
             overflow-x: auto;
         }
         

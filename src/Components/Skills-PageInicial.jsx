@@ -65,20 +65,6 @@ const SkillsPageInicial = () => {
                             </div>
                             <img src={node_logo} alt="HTML5" />
                         </div>
-                        <div>
-                            <div className="Content-Skills-Ind">
-                                <h3>MongoDB</h3>
-                                <p>Banco De Dados NoSQL</p>
-                            </div>
-                            <img src={mongodb_logo} alt="HTML5" />
-                        </div>
-                        <div>
-                            <div className="Content-Skills-Ind">
-                                <h3>TypeScript</h3>
-                                <p>Tipagem Estática de JavaScript</p>
-                            </div>
-                            <img src={typescript_logo} alt="HTML5" />
-                        </div>
                     </div>
                     <img id ="programer3"src={programer3} alt="programer2" />
                 </div>

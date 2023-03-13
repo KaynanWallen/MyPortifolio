@@ -27,6 +27,9 @@ import close from '../assets/img/close.svg';
 import minimaze from '../assets/img/minimaze.png';
 import square from '../assets/img/square.png';
 
+import folder from '../assets/img/pasta.svg';
+import search from '../assets/img/search.svg';
+import settings from '../assets/img/settings.svg';
 
 function RemoveTab(id) {
     var x = document.getElementById(id);
@@ -86,6 +89,9 @@ const PageInicial = () => {
 
         <main>
             <div className="Sections-Left">
+                <img src={folder} alt="html5 logo"/>
+                <img src={search} alt="css logo"/>
+                <img src={settings} alt="js logo"/>
             </div>
             <div className="Sections-Center" id="Sections-Center">
                 <div className="explorer">

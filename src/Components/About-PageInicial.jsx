@@ -4,7 +4,11 @@ import { PageContext } from "../context/page";
 
 //Imagems
 import programer2 from "../assets/img/icons-Programer-About.png";
-import download from   "../assets/img/download.png"
+import download from   "../assets/img/download.png";
+import github from "../assets/img/icons8-github.svg";
+import linkedin from "../assets/img/icons8-linkedin.svg";
+
+
 
 import "../Styles/About-PageInicial.css";
 
@@ -34,10 +38,22 @@ const AboutPageInicial = () => {
                     <img id ="programer2"src={programer2} alt="programer2" />
 
                 </div>
-                <button className="btn-cv">
-                    <img src={download} alt="download" /> 
-                    <p>Baixar CV</p>
-                </button>
+                     <button className="btn-cv">
+                        <a className="button" href="https://drive.google.com/file/d/1_1oHrkD3H-E4B1dPR16vGLEeXmOglUiD/view?usp=share_link"> <img src={download} alt="download" /> </a> 
+                        <a href="https://drive.google.com/file/d/1_1oHrkD3H-E4B1dPR16vGLEeXmOglUiD/view?usp=share_link"><p>Baixar CV</p></a>
+                    </button> 
+
+                <div className="Link-Git">
+                    <button>
+                    <a href="https://www.linkedin.com/in/kaynan-wallen-9b542024a/" target="_blank" ><img src={linkedin} alt="github" /> </a>
+                        <p>Lindekin</p>
+                    </button>
+                    <button>
+                        <a href="https://github.com/KaynanWallen" target="_blank" > <img src={github} alt="github" /> </a>
+                        <p>GitHub</p>
+                    </button>
+                </div>
+
         </div>
         </div>
     )

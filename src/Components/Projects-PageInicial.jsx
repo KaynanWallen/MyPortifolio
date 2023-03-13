@@ -21,62 +21,86 @@ const ProjectsPageInicial = () => {
                 </div>
                 <div className="Projects">
                     <div className="Project-row">
-                        <div id="ProjetosJS" className="ImageProject-and-technologies">
-                            <div className="technologies">
-                                <h3>Tecnologias</h3>
-                                <div className="Desc-technologies">
-                                    <p>-HTML</p>
-                                    <p>-Css</p>
-                                    <p>-JavaScript</p>
+                            <div id="Portifolio" className="ImageProject-and-technologies">
+                                <div className="technologies">
+                                    <h3>Tecnologias</h3>
+                                    <div className="Desc-technologies">
+                                        <p>-HTML</p>
+                                        <p>-Css</p>
+                                        <p>-JavaScript</p>
+                                        <p>-ReactJs</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="Description-Project">
-                            <h3>Projetos em JS</h3>
-                            <p>Esse projeto é uma demonstração das minhas habilidades de javaScript, nele contém diversos programas feitos com js puro</p>
-                            <div className="Button-Project">
-                                <button>
-                                    <img src={github} alt="" />
-                                    <p>GitHub</p>
-                                </button>
-                                <button>
-                                    <img src={internet} alt="" />
-                                    <p>Site</p>
-                                </button>
-                            </div>
-                        </div> 
-                    </div>
-
-
-                    <div className="Project-row">
-                        <div id="Portifolio" className="ImageProject-and-technologies">
-                            <div className="technologies">
-                                <h3>Tecnologias</h3>
-                                <div className="Desc-technologies">
-                                    <p>-HTML</p>
-                                    <p>-Css</p>
-                                    <p>-JavaScript</p>
-                                    <p>-ReactJs</p>
+                            <div className="Description-Project">
+                                <h3>Portfólio</h3>
+                                <p>Meu Portfólio, site que servirá como amostra de minhas habilidades</p>
+                                <div className="Button-Project">
+                                    <button>
+                                        <img src={github} alt="" />
+                                        <p>GitHub</p>
+                                    </button>
+                                    <button>
+                                        <img src={internet} alt="" />
+                                        <p>Site</p>
+                                    </button>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="Description-Project">
-                            <h3>Portfólio</h3>
-                            <p>Esse projeto tem como intuito ser a porta de entrada para a minha vida como programador, tem como objetivo demonstrar meus projetos e consequêntemente minhas habilidade</p>
-                            <div className="Button-Project">
-                                <button>
-                                    <img src={github} alt="" />
-                                    <p>GitHub</p>
-                                </button>
-                                <button>
-                                    <img src={internet} alt="" />
-                                    <p>Site</p>
-                                </button>
-                            </div>
-                        </div> 
+                            </div> 
                     </div> 
-                    
-                                    
+                    <div className="Project-row">
+                        <div id="Construction" className="ImageProject-and-technologies">
+                            <div className="technologies">
+                                <h3>Tecnologias</h3>
+                                <div className="Desc-technologies">
+                                    <p>-HTML</p>
+                                    <p>-Css</p>
+                                    <p>-JavaScript</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="Description-Project">
+                            <h3>Em construção</h3>
+                            <p>O projeto ainda está sendo desenvolvido, volte mais tarde por favor</p>
+                            <div className="Button-Project">
+                                <button>
+                                    <img src={github} alt="" />
+                                    <p>GitHub</p>
+                                </button>
+                                <button>
+                                    <img src={internet} alt="" />
+                                    <p>Site</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div> 
+
+                                        <div className="Project-row">
+                        <div id="Construction" className="ImageProject-and-technologies">
+                            <div className="technologies">
+                                <h3>Tecnologias</h3>
+                                <div className="Desc-technologies">
+                                    <p>-HTML</p>
+                                    <p>-Css</p>
+                                    <p>-JavaScript</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="Description-Project">
+                            <h3>Em construção</h3>
+                            <p>O projeto ainda está sendo desenvolvido, volte mais tarde por favor</p>
+                            <div className="Button-Project">
+                                <button>
+                                    <img src={github} alt="" />
+                                    <p>GitHub</p>
+                                </button>
+                                <button>
+                                    <img src={internet} alt="" />
+                                    <p>Site</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div> 
+                             
                 </div>
             </div>
         </div>
