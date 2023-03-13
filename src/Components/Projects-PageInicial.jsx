@@ -36,11 +36,11 @@ const ProjectsPageInicial = () => {
                                 <h3>Portfólio</h3>
                                 <p>Meu Portfólio, site que servirá como amostra de minhas habilidades</p>
                                 <div className="Button-Project">
-                                    <a  class="button" href="myportfolio-nduoprarz-kaynanwallen.vercel.app" target="_blank"><button>
+                                    <a  class="button" href="https://github.com/KaynanWallen/MyPortifolio" target="_blank"><button>
                                         <img src={github} alt="" />
                                         <p>GitHub</p>
                                     </button></a>
-                                    <a  class="button" href="myportfolio-nduoprarz-kaynanwallen.vercel.app" target="_blank"><button>
+                                    <a  class="button" href="https://myportfolio-3mn837w8p-kaynanwallen.vercel.app" target="_blank"><button>
                                         <img src={internet} alt="" />
                                         <p>Site</p>
                                     </button></a>
@@ -65,7 +65,7 @@ const ProjectsPageInicial = () => {
                                         <img src={github} alt="" />
                                         <p>GitHub</p>
                                     </button></a>
-                                    <a  class="button" href="restaurante-fazenda-j552ipwk3-kaynanwallen.vercel.app" target="_blank"><button>
+                                    <a  class="button" href="https://restaurante-fazenda-j552ipwk3-kaynanwallen.vercel.app" target="_blank"><button>
                                         <img src={internet} alt="" />
                                         <p>Site</p>
                                     </button></a>
