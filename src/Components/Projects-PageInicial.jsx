@@ -36,16 +36,41 @@ const ProjectsPageInicial = () => {
                                 <h3>Portfólio</h3>
                                 <p>Meu Portfólio, site que servirá como amostra de minhas habilidades</p>
                                 <div className="Button-Project">
-                                    <button>
+                                    <a  class="button" href="myportfolio-nduoprarz-kaynanwallen.vercel.app" target="_blank"><button>
                                         <img src={github} alt="" />
                                         <p>GitHub</p>
-                                    </button>
-                                    <button>
+                                    </button></a>
+                                    <a  class="button" href="myportfolio-nduoprarz-kaynanwallen.vercel.app" target="_blank"><button>
                                         <img src={internet} alt="" />
                                         <p>Site</p>
-                                    </button>
-                                </div>
+                                    </button></a>
+                                    </div>
                             </div> 
+                    </div> 
+                    <div className="Project-row">
+                        <div id="fazenda" className="ImageProject-and-technologies">
+                            <div className="technologies">
+                                <h3>Tecnologias</h3>
+                                <div className="Desc-technologies">
+                                    <p>-HTML</p>
+                                    <p>-Css</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="Description-Project">
+                            <h3>Fazenda</h3>
+                            <p>Recriação de uma Landing Page feita com HTML e CSS</p>
+                            <div className="Button-Project">
+                                    <a  class="button" href="https://github.com/KaynanWallen/LandingPage-Fazenda" target="_blank"><button>
+                                        <img src={github} alt="" />
+                                        <p>GitHub</p>
+                                    </button></a>
+                                    <a  class="button" href="restaurante-fazenda-j552ipwk3-kaynanwallen.vercel.app" target="_blank"><button>
+                                        <img src={internet} alt="" />
+                                        <p>Site</p>
+                                    </button></a>
+                            </div>
+                        </div>
                     </div> 
                     <div className="Project-row">
                         <div id="Construction" className="ImageProject-and-technologies">
@@ -62,41 +87,14 @@ const ProjectsPageInicial = () => {
                             <h3>Em construção</h3>
                             <p>O projeto ainda está sendo desenvolvido, volte mais tarde por favor</p>
                             <div className="Button-Project">
-                                <button>
+                                <a class="button" href="" target="_blank"><button>
                                     <img src={github} alt="" />
                                     <p>GitHub</p>
-                                </button>
-                                <button>
+                                </button></a>
+                                <a class="button" href="" target="_blank">   <button>
                                     <img src={internet} alt="" />
                                     <p>Site</p>
-                                </button>
-                            </div>
-                        </div>
-                    </div> 
-
-                                        <div className="Project-row">
-                        <div id="Construction" className="ImageProject-and-technologies">
-                            <div className="technologies">
-                                <h3>Tecnologias</h3>
-                                <div className="Desc-technologies">
-                                    <p>-HTML</p>
-                                    <p>-Css</p>
-                                    <p>-JavaScript</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="Description-Project">
-                            <h3>Em construção</h3>
-                            <p>O projeto ainda está sendo desenvolvido, volte mais tarde por favor</p>
-                            <div className="Button-Project">
-                                <button>
-                                    <img src={github} alt="" />
-                                    <p>GitHub</p>
-                                </button>
-                                <button>
-                                    <img src={internet} alt="" />
-                                    <p>Site</p>
-                                </button>
+                                </button></a>
                             </div>
                         </div>
                     </div> 

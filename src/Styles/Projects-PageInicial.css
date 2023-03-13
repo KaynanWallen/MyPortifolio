@@ -56,8 +56,13 @@
     background-position: center;
     background-size: 100% 100%;
 }
-#Construction .technologies{
+#Construction .technologies {
     display: none;
+}
+#fazenda {
+    background-image: url(../assets/img/Projects-Fazenda.png);
+    background-position: center;
+    background-size: 100% 100%;
 }
 #Portifolio {
     background-image: url(../assets/img/Projects-Portifolio.png);
@@ -68,7 +73,7 @@
 .ImageProject-and-technologies .technologies {
     width: 100%;
     height: 40%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -112,7 +117,7 @@
     display: flex;
     justify-content: space-around;
 }
-.Button-Project button {
+.Button-Project .button {
     width: 42%;
     border-radius: 1rem;
     border: none;
@@ -125,10 +130,23 @@
     cursor: pointer;
 }
 
+.Button-Project .button button {
+    width: 100px;
+    border-radius: 1rem;
+    border: none;
+    background-color: transparent;
+    color: white;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
 .Button-Project button img {
     margin: 0;
-    height: 60%;
-    width: 20%;
+    height: 30px;
+    width: 30px;
+    margin-right: 1px;
 }
 
 
@@ -199,7 +217,7 @@
         display: flex;
         flex-wrap: wrap;
     }
-    #Construction, #Portifolio {
+    #Construction, #Portifolio, #fazenda {
         height:50%;
     }
     .Description-Project {
@@ -221,7 +239,7 @@
         justify-content: center;
         width: 100%;
     }
-    .Button-Project button {
+    .Button-Project a button {
         height: 60%;
     }
     

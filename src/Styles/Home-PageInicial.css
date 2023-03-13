@@ -82,3 +82,11 @@
         margin-left: -25%;   
     }
 }
+@media screen and (max-width: 500px) {
+    .Links {
+        display: none;
+    }
+    .Sections-Main.Mobile .Name p{
+        margin-left: 0;  
+    }
+}
