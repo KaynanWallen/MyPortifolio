@@ -153,9 +153,9 @@ main .Sections-Main {
 .close:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
-
-
-
+#ArrowFunction2 {
+    display: none;
+}
 footer {
     height: 5%;
     background-color: black;

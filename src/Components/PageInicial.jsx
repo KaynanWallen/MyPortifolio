@@ -31,6 +31,11 @@ import folder from '../assets/img/pasta.svg';
 import search from '../assets/img/search.svg';
 import settings from '../assets/img/settings.svg';
 
+import arrow from '../assets/img/arrow-rotate1.png'
+import arrow2 from '../assets/img/arrow-rotate2.png'
+
+var testando = arrow2;
+var arrowp = arrow;
 function RemoveTab(id) {
     var x = document.getElementById(id);
         x.style.display = "none";
@@ -45,7 +50,6 @@ function ArrowAndElements(id1,id2,id3,id4){
     var array = [id1,id2,id3,id4];
     array.map((id) => {
         var x = document.getElementById(id);
-        
         if (x.style.display === "none") {
             x.style.display = "flex";
         } else {
@@ -53,6 +57,29 @@ function ArrowAndElements(id1,id2,id3,id4){
         }
     });
 }
+
+var firts = false;
+function MinimizeElements(){
+     var arrowElement1 = document.getElementById('ArrowFunction')
+     var arrowElement2 = document.getElementById('ArrowFunction2')
+
+     if (firts == false){
+        arrowElement1.style.display = "none";
+        arrowElement2.style.display = "flex";
+        firts = true;
+     }
+     else {
+        if (arrowElement1.style.display === "none"){
+            arrowElement2.style.display = "none";
+            arrowElement1.style.display = "flex";
+        }
+        else {
+            arrowElement2.style.display = "flex";
+            arrowElement1.style.display = "none ";
+        }
+     }
+    
+} 
 
 function NavBarMobile() {
     var menu = document.getElementById("Sections-Main");
@@ -99,7 +126,17 @@ const PageInicial = () => {
                     <p className="points">...</p>
                 </div>
                 <div className="portifolio">
-                    <img onClick={() => ArrowAndElements("New_Html", "New_Css", "New_Js", "New_React", "New_Html") } src={seta} alt="HTML5 Logo"/>
+                    <img onClick={() => {
+                        ArrowAndElements("New_Html", "New_Css", "New_Js", "New_React", "New_Html");
+                        MinimizeElements()
+                    }} src={arrow} alt="HTML5 Logo" className="ArrowFunction" id="ArrowFunction"/>
+                    <img onClick={() => {
+                        ArrowAndElements("New_Html", "New_Css", "New_Js", "New_React", "New_Html");
+                        MinimizeElements()
+                    }} src={arrow2} alt="HTML5 Logo" className="ArrowFunction2" id="ArrowFunction2"/>
+
+
+
                     <p>Portifolio</p>
                 </div>
                 <div className="sections">
